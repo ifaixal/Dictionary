@@ -112,3 +112,14 @@
       justify-content: space-around;
     }
   }
+
+  @media (max-Width: 426px) {
+    .changeFont{
+      display: none;
+    }
+    #navbar{
+      justify-content: space-around;
+    }
+  }
+
+  
