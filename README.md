@@ -28,7 +28,7 @@ A sleek, fully responsive Dictionary web application built using **React** that 
 
 ---
 ## 📸 Preview
-
+"./Screenshot.png"
 
 
 ---
