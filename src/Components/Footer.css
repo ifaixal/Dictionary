@@ -1,0 +1,31 @@
+.Source{
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;         /* or 60rem, depending on your layout */
+    padding: 2rem;
+    width: 100%;              /* full width on small screens */
+    margin: 0 auto;           /* center horizontally */
+    gap: 0.25rem;
+}
+
+.Name{
+    font-size: x-large;
+    color: #6e6e6e;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(274, 82%, 60%);
+}
+
+.tag{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.developer{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: smaller;
+    color: #6e6e6e;
+}

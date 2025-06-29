@@ -1,0 +1,17 @@
+.NotFound{
+    text-align: center;
+    padding: 2rem;
+}
+
+.Emoji{
+    font-size: 4rem;
+}
+
+.NoDef{
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.Description{
+    font-size: 1.25rem;
+}

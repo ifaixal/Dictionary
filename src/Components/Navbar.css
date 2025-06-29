@@ -1,0 +1,114 @@
+#dropdownIcon, #moonIcon, p{
+    cursor: pointer;
+}
+
+#moonIcon{
+    stroke: #838383;
+}
+
+#moonIcon:hover{
+    stroke: hsl(274, 82%, 60%);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.25rem;
+    margin-top: 2rem;
+}
+
+.navbarLeftSide{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.changeFont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1.25rem;
+    border-right: 1.25px solid rgb(213, 213, 213);
+}
+
+.selectedFont{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+.toggleTheme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.25rem;
+  }
+  
+  #switch{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  #checkbox{
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(0, 0%, 47%);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    top: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  
+  /* Rounded sliders */
+  .slider {
+    border-radius: 2rem;
+  }
+  
+  .slider:before {
+    border-radius: 70%;
+  }
+  
+  #checkbox:checked + .slider {
+    background-color: hsl(274, 82%, 60%);
+  }
+
+  @media (max-Width: 376px) {
+    .changeFont{
+      display: none;
+    }
+    #navbar{
+      justify-content: space-around;
+    }
+  }

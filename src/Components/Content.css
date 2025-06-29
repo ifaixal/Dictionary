@@ -1,0 +1,48 @@
+.meaningBlock{
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    width: 100%;              /* full width on small screens */
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: -3rem;
+}
+
+.headingWithLine{
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* spacing between line and text */
+    margin: 1.5rem 0;
+}
+
+h2{
+    font-style: italic;
+    white-space: nowrap; /* prevent heading from wrapping */
+    font-weight: 500;
+}
+
+.Line{
+    flex: 1; /* stretch the line */
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.Meaning{
+    font-size: x-large;
+}
+
+li{
+    margin: 1rem;
+    font-size: larger;
+}
+
+li::marker {
+    color: hsl(274, 82%, 60%);
+}
+
+.example{
+    font-size: large;
+    margin: 0.25rem;
+    color: #6e6e6e;
+}
